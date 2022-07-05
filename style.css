@@ -45,7 +45,7 @@
     width: 60%;
     margin: 0 auto;
 }
-.donation-info h3{
+.donation-title{
     font-size: 60px;
 }
 .donation-text{
@@ -86,4 +86,42 @@
     font-size: 30px;
     text-align: center;
     color: #b3b3b3;
+}
+.donation-plan-info{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donation-catagory{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 150px;
+}
+.donation-field{
+    width: 25%;
+    padding: 60px 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+/* .donation-field img{
+  
+} */
+.donation-field h5{
+    font-size: 35px;
+    padding: 30px 0px;
+}
+.donation-field p{
+    font-size: 22px;
+    line-height: 35px;
+    color: #707070;
+    text-align: left;
+}
+.donate-food{
+    background-color: rgba(90, 182, 192, 0.1);
+}
+.donate-shelter{
+    background-color: rgba(253, 77, 77, 0.1);
+}
+.donate-eduaction{
+    background-color: rgba(255, 187, 0, 0.171);
 }
