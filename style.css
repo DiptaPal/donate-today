@@ -4,6 +4,8 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+
+/* banner section */
 .banner-container{
     background-image: url("./images/image2.jpg");
     background-repeat: no-repeat;
@@ -34,7 +36,9 @@
     padding: 22px 40px;
     text-decoration: none;
     border-radius: 5px;
-}
+} 
+
+/* donation section  */
 .donation-container{
     width: 80%;
     margin: 0 auto;
@@ -87,6 +91,8 @@
     text-align: center;
     color: #b3b3b3;
 }
+
+/* donation plan section */
 .donation-plan-info{
     width: 75%;
     margin: 0 auto;
@@ -125,3 +131,33 @@
 .donate-eduaction{
     background-color: rgba(255, 187, 0, 0.171);
 }
+
+
+
+
+
+/* footer section */
+footer{
+    background-color: black;
+}
+.footer-section{
+    width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+}
+.footer-section h3{
+    color: #ff5959;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 25px;
+}
+.footer-section p{
+    color: #d9dbe1;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
