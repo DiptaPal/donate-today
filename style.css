@@ -82,13 +82,11 @@
     border-right: none;
     border-color: #b3b3b3;
     outline: none;
+    text-indent: 37.5%;
+    font-size: 25px;
 }
-/* .donatation-textfield {
-
-} */
 .donatation-textfield::placeholder{
     font-size: 30px;
-    text-align: center;
     color: #b3b3b3;
 }
 
@@ -132,12 +130,49 @@
     background-color: rgba(255, 187, 0, 0.171);
 }
 
-
+/* update section */
+.update-top-side{
+    width: 60%;
+}
+.update-text{
+    padding: 50px 150px;
+}
+#form-container{
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgba(255, 187, 0, 0.171);
+    text-align: center;
+    padding: 110px;
+}
+.email-textfield{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #d9d9d9;
+}
+.email-textfield::placeholder{
+    font-size: 22px;
+    font-weight: 600;
+    color: #aa9f9f;
+}
+.subcribe-btn{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff5959;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px 40px;
+}
 
 
 
 /* footer section */
 footer{
+    margin-top: 200px;
     background-color: black;
 }
 .footer-section{
