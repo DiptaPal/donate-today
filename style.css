@@ -9,11 +9,10 @@
 .banner-container{
     background-image: url("./images/image2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 .banner-description{
-    padding: 250px 300px;
+    padding: 350px 380px;
     text-align: center;
     
 }
@@ -139,11 +138,12 @@
     font-size: 60px;
 }
 #underline{
-    width: 165px;
+    width: 160px;
     margin: 0 auto;
     height: 5px;
     background-color: #ff5959;
     margin-bottom: 50px;
+    background-image: linear-gradient(90deg,orange,tomato);
 }
 .donation-news{
     display: flex;
@@ -164,10 +164,10 @@
  font-size: 20px;
  padding: 25px;
 }
-.news-box p{
+.news-box-text{
     font-size: 18px;
-    padding-bottom: 45px;
     height: 100px;
+    padding: 0 30px 45px;
 }
 .news-box a{
     text-decoration: none;
@@ -175,6 +175,59 @@
     font-weight: 700;
     color: #eb8888;
     
+}
+
+/* donation partner  */
+.partner-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.donation-partner{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+.partner-text h2{
+    font-size: 45px;
+}
+.partner-text{
+    text-align: center;
+}
+.partner-about{
+    font-size: 25px;
+    text-align: justify;
+}
+.parter-underline{
+    width: 485px;
+    margin: 0 auto;
+    height: 4px;
+    background-color: #ff5959;
+    margin-bottom: 50px;
+    background-image: linear-gradient(90deg,orange,tomato);
+}
+.partner-info{
+    width: 60%;
+    padding: 100px;
+}
+.partner-logo{
+    display: flex;
+    width: 40%;
+}
+.partner-top img{
+    margin-top: 85%;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    padding: 70px 30px;
+}
+.partner-buttom div{
+    padding: 50px;
+}
+.partner-buttom img{
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    padding: 70px 30px;
 }
 
 /* update section */
@@ -234,8 +287,7 @@ footer{
 .footer-section h3{
     color: #ff5959;
     font-family: 'Lobster', cursive;
-    font-style: italic;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 50px;
     padding: 25px;
 }
