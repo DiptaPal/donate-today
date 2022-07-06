@@ -7,6 +7,7 @@
 
 /* banner section */
 .banner-container{
+    width: 100%;
     background-image: url("./images/image2.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
@@ -39,8 +40,6 @@
 
 /* donation section  */
 .donation-container{
-    width: 80%;
-    margin: 0 auto;
     text-align: center;
     padding: 200px;
 }
