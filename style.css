@@ -184,8 +184,7 @@
 }
 .donation-partner{
     display: flex;
-    justify-content: center;
-    margin: 80px 0;
+    margin-bottom: 80px;
 }
 .partner-text h2{
     font-size: 45px;
@@ -196,9 +195,13 @@
 .partner-about{
     font-size: 25px;
     text-align: justify;
+    line-height: 40px;
+}
+.partner-about span{
+    font-weight: 800;
 }
 .parter-underline{
-    width: 485px;
+    width: 488px;
     margin: 0 auto;
     height: 4px;
     background-color: #ff5959;
