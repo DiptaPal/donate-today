@@ -98,18 +98,17 @@
 }
 .donation-catagory{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 50px 150px;
 }
 .donation-field{
     width: 25%;
     padding: 60px 30px;
     border-radius: 10px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 200px;
 }
-/* .donation-field img{
-  
-} */
 .donation-field h5{
     font-size: 35px;
     padding: 30px 0px;
@@ -130,7 +129,58 @@
     background-color: rgba(255, 187, 0, 0.171);
 }
 
+/* donation news section  */
+.donation-news-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donation-news-container h2{
+    font-size: 60px;
+}
+#underline{
+    width: 165px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #ff5959;
+    margin-bottom: 50px;
+}
+.donation-news{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.news-box{
+    width: 28%;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+.news-box img{
+    width: 100%;
+}
+.news-box h6{
+ font-size: 20px;
+ padding: 25px;
+}
+.news-box p{
+    font-size: 18px;
+    padding-bottom: 45px;
+    height: 100px;
+}
+.news-box a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #eb8888;
+    
+}
+
 /* update section */
+.update-container{
+    margin-bottom: 150px;
+}
 .update-top-side{
     width: 60%;
 }
