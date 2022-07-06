@@ -283,12 +283,12 @@
 /* footer section */
 footer{
     margin-top: 200px;
-    background-color: black;
+    background-color: #0b0d17;
 }
 .footer-section{
     width: 400px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 50px;
     text-align: center;
 }
 .footer-section h3{
