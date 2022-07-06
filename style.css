@@ -8,25 +8,28 @@
 /* banner section */
 .banner-container{
     width: 100%;
+    height: 98vh;
     background-image: url("./images/image2.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .banner-description{
-    padding: 250px 400px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 250px;
     text-align: center;
     
 }
 .banner-description h1{
-    font-size: 80px;
+    font-size: 75px;
     color: white;
     padding-bottom: 10px;
 }
 .text{
-    font-size: 25px;
-    line-height: 55px;
+    font-size: 22px;
+    line-height: 45px;
     color: white;
-    padding: 50px;
+    padding: 50px 100px;
 }
 .donnate-btn{
     background-color: #ff5959;
@@ -78,7 +81,7 @@
     border-top: none;
     border-left: none ;
     border-right: none;
-    border-color: #b3b3b3;
+    border-color: #dadada;
     outline: none;
     text-indent: 37.5%;
     font-size: 25px;
@@ -139,7 +142,8 @@
 #underline{
     width: 160px;
     margin: 0 auto;
-    height: 5px;
+    height: 4px;
+    border-radius: 10px;
     background-color: #ff5959;
     margin-bottom: 50px;
     background-image: linear-gradient(90deg,orange,tomato);
@@ -203,6 +207,7 @@
     width: 488px;
     margin: 0 auto;
     height: 4px;
+    border-radius: 10px;
     background-color: #ff5959;
     margin-bottom: 50px;
     background-image: linear-gradient(90deg,orange,tomato);
